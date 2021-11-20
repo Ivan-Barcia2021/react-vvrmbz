@@ -39,6 +39,7 @@ const Misproyectos = () => {
         <br></br>
 
 <h1>Proyectos personales</h1>
+
 <p></p>
 
 
