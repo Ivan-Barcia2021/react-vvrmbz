@@ -1,0 +1,15 @@
+h1, p {
+  font-family: Lato;
+}
+footer{
+  background-color: rgb(68, 64, 64);
+}
+.textoblanco{
+  color: white;
+}
+.container{
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
