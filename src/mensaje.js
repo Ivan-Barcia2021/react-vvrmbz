@@ -1,8 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Contactame = () => {
+const Mensaje = () => {
   return (
     <div>
     <div className={'container'}>
@@ -39,24 +38,13 @@ const Contactame = () => {
         </nav>
         <br></br>
 
-        <section>
-      <form>
-       <label for="nombre">Nombre: </label>
-       <input id="nombre" name="nombre" placeholder="Nombre completo"/><br></br><br></br>
-       <label for="email">Email: </label>
-       <input id="email" name="email" type="email" placeholder="ejemplo@email.com"/><br></br><br></br>
-       <label for="mensaje">Mensaje: </label>
-       <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea><br></br><br></br>
-       <Link to={'/mensaje'}>
-
-       <button className="btn btn-primary"  >Enviar</button>
-       </Link>
-    <br></br><br></br>
-      </form>
-
-        </section>
+<h1>Mensaje enviado exitosamente</h1>
 
 
+
+
+  
+   <br/>
     </div>
         <footer>
           <div class="container">
@@ -67,7 +55,7 @@ const Contactame = () => {
                   <img src= {"https://cdn-icons-png.flaticon.com/512/1384/1384005.png"} width= {30} height= {30}/>
                 </a>
                 <a href="#">
-                
+             
                 </a>
                 <a href="#">
                 <img src= {"https://cdn-icons-png.flaticon.com/512/1384/1384023.png"} width= {30} height= {30}/>
@@ -82,4 +70,4 @@ const Contactame = () => {
   );
 };
 
-export default Contactame;
+export default Mensaje;
