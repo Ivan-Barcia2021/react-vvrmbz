@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-
+import Foto_1 from "./Imagen1.png"
 const Misproyectos = () => {
   return (
     <div>
