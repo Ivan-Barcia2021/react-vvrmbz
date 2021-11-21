@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Foto_1 from "./Imagen1.png"
+import Foto_1 from './img';
 const Misproyectos = () => {
   return (
     <div>
@@ -39,7 +39,13 @@ const Misproyectos = () => {
         <br></br>
 
 <h1>Proyectos personales</h1>
-
+Realicé un sitio web que permite administrar los pacientes de una veterinaria, abajo podés observar el link al sitio y una captura de pantalla:
+<br></br>
+<br></br>
+stackblitz.com/edit/react-vvrmbz
+<br></br>
+<br></br>
+Además, desarrollé otro sitio, el cual tiene como objetivo traer información sobre distintas personas, desde una api. 
 <p></p>
 
 
